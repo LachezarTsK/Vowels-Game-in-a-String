@@ -3,13 +3,13 @@ class Solution {
     fun doesAliceWin(input: String): Boolean {
         for (letter in input) {
             if (isVowel(letter)) {
-                return true;
+                return true
             }
         }
-        return false;
+        return false
     }
 
     private fun isVowel(letter: Char): Boolean {
-        return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
+        return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'
     }
 }
