@@ -7,7 +7,7 @@ public class Solution
     {
         foreach (char letter in input)
         {
-            if (isVowel(letter))
+            if (IsVowel(letter))
             {
                 return true;
             }
@@ -15,7 +15,7 @@ public class Solution
         return false;
     }
 
-    private bool isVowel(char letter)
+    private bool IsVowel(char letter)
     {
         return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
     }
